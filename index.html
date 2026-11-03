@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Downloader</h1>
+        <p>Paste Spotify track or playlist link below:</p>
+        
+        <input type="text" id="playlistUrl" placeholder="https://open.spotify.com/playlist/..." />
+        <button id="dlBtn" onclick="handleDownload()">Download MP3 / ZIP</button>
+
+        <div id="status" class="status-msg"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
